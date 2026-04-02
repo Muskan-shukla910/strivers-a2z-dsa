@@ -18,7 +18,7 @@ public class inputOutput {
     //    System.out.println("Enter the value of flag");
        boolean flag=sc.nextBoolean();
        System.out.println(flag);
-       
+       sc.close();
 
     }
     

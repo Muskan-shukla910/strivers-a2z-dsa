@@ -6,5 +6,6 @@ public class Primitive_Data_Types {
         // Numeric data type
         byte num1=100;
         System.out.println(num1);
+        
     }
 }
