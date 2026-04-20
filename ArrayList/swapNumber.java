@@ -10,11 +10,8 @@ public class swapNumber {
         list.add(6);
 
         System.out.println(list);
-        int inx1 = 1;
-        int idx2 = 3;
-        int temp = 0;
-        
-        
-
+        // int inx1 = 1;
+        // int idx2 = 3;
+        // int temp = 0;
     }
 }
