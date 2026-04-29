@@ -47,12 +47,14 @@ public class sudokuSolver {
         // Placing new elements(if zero)
         for (int digit = 1; digit <= 9; digit++) {
             if (isSafe(sudoku, row, col, digit)) {
+                // place digit
                 sudoku[row][col] = digit;
                 if (mySudokuSolver(sudoku, nextRow, nextCOl)) {
                     // true
                     // Solution exist
                     return true;
                 }
+                // backtrack
                 sudoku[row][col] = 0;
 
             }
