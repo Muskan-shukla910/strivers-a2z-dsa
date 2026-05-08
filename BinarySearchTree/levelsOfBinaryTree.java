@@ -27,6 +27,7 @@ public class levelsOfBinaryTree {
     }
     public static void display(Node root){
         if(root==null) return;
+        if(root.left==null && root.right==null) return;
         System.out.println(root.data);
         display(root.left);
         display(root.right);
